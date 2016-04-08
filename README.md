@@ -5,10 +5,15 @@ Implementation of fast steganographic encoder and decoder in Nexys4 DDR and Nexy
 How to use?
 -----------
 Once the product is running on an FPGA, it can be controlled by sending commands to it via Ethernet. Any permutation of the following commands can be sent to the product by including them in as command line argument given to the Ethernet Client executable.  
+
 set_input:<path>
+
 Set the path for any PNG image file that will be sent to the server
+
 set_output:<path>
+
 Set the path for any PNG image that will be received from the server
+
 set_in_message:<path>
 Set the path for any text that will be sent to the server
 set_out_message:<path>
@@ -55,23 +60,41 @@ For example, an image can be encoded and then decoded with the following sequenc
 Repository Structure
 --------------------
 Root:.
+
 ¦   README.md
+
 ¦   
+
 +---docs
+
 ¦       presentation.pptx
+
 ¦       report.pdf
+
 ¦       
+
 +---src
+
     +---ips
+    
     ¦   +---decoder_ip_prj
+    
     ¦   +---encdec_sim_prj
+    
     ¦   +---encoder_ip_prj
+    
     ¦   +---stream_encoder_ip_prj
+    
     ¦
+    
     +---ethernet_client
+    
     ¦       
+    
     +---project_archives
+    
             nexys4_ddr_encdec_prj.xpr.zip
+            
             nexys_video_stream_enc_prj.xpr.zip
 
 .
@@ -83,4 +106,4 @@ Matthew Lee, Thomas Sattolo, George Shehata
 
 Acknowledgements
 ----------------
-The authors would like to thank Michal Krepa and Emrah Yuce for the use of their DCT core provided through OpenCores. The core can be found at http://opencores.org/projects . Additionally, we would like to thank Digilent for the use of their example designs including hdmi and echoserver. 
+The authors would like to thank Michal Krepa and Emrah Yuce for the use of their DCT core provided through OpenCores. The core can be found at http://opencores.org/project,mdct . Additionally, we would like to thank Digilent for the use of their example designs including hdmi and echoserver. 
