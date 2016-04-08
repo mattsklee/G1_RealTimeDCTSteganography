@@ -6,17 +6,13 @@ How to use?
 -----------
 Once the product is running on an FPGA, it can be controlled by sending commands to it via Ethernet. Any permutation of the following commands can be sent to the product by including them in as command line argument given to the Ethernet Client executable.  
 
-set_input:<path>
-
+1.set_input:<path>
 Set the path for any PNG image file that will be sent to the server
-
-set_output:<path>
-
+2.set_output:<path>
 Set the path for any PNG image that will be received from the server
-
-set_in_message:<path>
+3.set_in_message:<path>
 Set the path for any text that will be sent to the server
-set_out_message:<path>
+4.set_out_message:<path>
 Set the path for any PNG image that will be received from the server
 write_png:<location>
 Load a PNG image from the specified path on the local machine
@@ -60,44 +56,24 @@ For example, an image can be encoded and then decoded with the following sequenc
 Repository Structure
 --------------------
 Root:.
-
 ¦   README.md
-
 ¦   
-
 +---docs
-
 ¦       presentation.pptx
-
 ¦       report.pdf
-
 ¦       
-
 +---src
-
     +---ips
-    
     ¦   +---decoder_ip_prj
-    
     ¦   +---encdec_sim_prj
-    
     ¦   +---encoder_ip_prj
-    
     ¦   +---stream_encoder_ip_prj
-    
     ¦
-    
     +---ethernet_client
-    
     ¦       
-    
     +---project_archives
-    
             nexys4_ddr_encdec_prj.xpr.zip
-            
             nexys_video_stream_enc_prj.xpr.zip
-
-.
 
 Authors
 -------
