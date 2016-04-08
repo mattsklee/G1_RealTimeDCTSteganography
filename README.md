@@ -56,6 +56,7 @@ For example, an image can be encoded and then decoded with the following sequenc
 
 Repository Structure
 --------------------
+```
 Root:.  
 ¦   README.md  
 ¦   
@@ -74,7 +75,8 @@ Root:.
     ¦       
     +---project_archives  
             nexys4_ddr_encdec_prj.xpr.zip  
-            nexys_video_stream_enc_prj.xpr.zip  
+            nexys_video_stream_enc_prj.xpr.zip 
+```            
 
 Authors
 -------
