@@ -55,7 +55,7 @@ For example, an image can be encoded and then decoded with the following sequenc
 
 Repository Structure
 --------------------
-Root:. \n
+Root:.
 ¦   README.md
 ¦   
 +---docs
