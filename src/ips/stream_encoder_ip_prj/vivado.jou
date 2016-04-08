@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Fri Apr 08 08:02:20 2016
+# Process ID: 9576
+# Current directory: C:/Users/SKL/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8792
+# Log file: C:/Users/SKL/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/SKL/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/SKL/Desktop/ECE532/repo/streamed_encoder_ip_prj2/project_1.xpr
+save_project_as stream_encoder_ip C:/Users/SKL/Desktop/asdfd -force
+launch_simulation
+open_wave_config C:/Users/SKL/Desktop/ECE532/repo/streamed_encoder_ip_prj2/sim_behav.wcfg
+source sim.tcl
+run 10 us
+archive_project C:/Users/SKL/Desktop/asdfd/stream_encoder_ip.xpr.zip -force -exclude_run_results
+save_project_as stream_encoder_ip_prj C:/Users/SKL/Desktop/dlash -force
+close_sim
+launch_simulation
+open_wave_config C:/Users/SKL/Desktop/ECE532/repo/streamed_encoder_ip_prj2/sim_behav.wcfg
+source sim.tcl
+archive_project C:/Users/SKL/Desktop/dlash/stream_encoder_ip_prj.xpr.zip -force -exclude_run_results

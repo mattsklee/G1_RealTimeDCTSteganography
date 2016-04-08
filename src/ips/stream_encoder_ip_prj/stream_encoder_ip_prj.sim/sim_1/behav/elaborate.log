@@ -1,0 +1,70 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2/Vivado/2015.3/bin/unwrapped/win64.o/xelab.exe -wto d4a64b1c199344da9c882bcda0064526 --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_4 -L xbip_pipe_v3_0_0 -L xbip_bram18k_v3_0_0 -L mult_gen_v12_0_9 -L fifo_generator_v13_0_0 -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_behav xil_defaultlib.sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.mdct_pkg
+Compiling package ieee.std_logic_arith
+Compiling package mult_gen_v12_0_9.mult_gen_v12_0_9_viv_comp
+Compiling package std.textio
+Compiling package xbip_utils_v3_0_4.xbip_utils_v3_0_4_pkg
+Compiling package mult_gen_v12_0_9.mult_gen_v12_0_9_pkg
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_9.dsp_pkg
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_unsigned
+Compiling architecture rtl of entity xil_defaultlib.ROME [rome_default]
+Compiling architecture rtl of entity xil_defaultlib.ROMO [romo_default]
+Compiling architecture rtl of entity xil_defaultlib.DCT1D [dct1d_default]
+Compiling architecture rtl of entity xil_defaultlib.DCT2D [dct2d_default]
+Compiling architecture rtl of entity xil_defaultlib.RAM [ram_default]
+Compiling architecture rtl of entity xil_defaultlib.DBUFCTL [dbufctl_default]
+Compiling architecture rtl of entity xil_defaultlib.MDCT [mdct_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.delay_line [\delay_line("artix7",true,0,0,43...]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.op_resize [\op_resize(12,14,0,0,0,25,18)\]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.dsp [\dsp("artix7",12,0,14,0,0,0,0,0,...]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.mult_gen_v12_0_9_viv [\mult_gen_v12_0_9_viv(0,0,1,"art...]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.mult_gen_v12_0_9 [\mult_gen_v12_0_9(0,0,1,"artix7"...]
+Compiling architecture mult_gen_1_arch of entity xil_defaultlib.mult_gen_1 [mult_gen_1_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.delay_line [\delay_line("artix7",true,0,0,18...]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.delay_line [\delay_line("artix7",true,0,0,16...]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.delay_line [\delay_line("artix7",true,0,0,1,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.delay_line [\delay_line("artix7",true,0,0,17...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.op_resize [\op_resize(33,14,0,0,0,33,18)\]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.dsp [\dsp("artix7",33,0,14,0,0,0,0,0,...]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.mult_gen_v12_0_9_viv [\mult_gen_v12_0_9_viv(0,0,1,"art...]
+Compiling architecture xilinx of entity mult_gen_v12_0_9.mult_gen_v12_0_9 [\mult_gen_v12_0_9(0,0,1,"artix7"...]
+Compiling architecture mult_gen_0_arch of entity xil_defaultlib.mult_gen_0 [mult_gen_0_default]
+Compiling module xil_defaultlib.myidct_less_lut
+Compiling module xil_defaultlib.stego_encode
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_ss [\fifo_generator_v13_0_0_bhv_ss("...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_preload0 [\fifo_generator_v13_0_0_bhv_prel...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_conv [\fifo_generator_v13_0_0_conv(1,0...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_vhdl_beh [\fifo_generator_vhdl_beh(1,0,11,...]
+Compiling architecture xilinx of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0 [\fifo_generator_v13_0_0(1,0,11,"...]
+Compiling architecture scfifo_5in_5out_5kb_arch of entity xil_defaultlib.scfifo_5in_5out_5kb [scfifo_5in_5out_5kb_default]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_ss [\fifo_generator_v13_0_0_bhv_ss("...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_bhv_preload0 [\fifo_generator_v13_0_0_bhv_prel...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0_conv [\fifo_generator_v13_0_0_conv(1,0...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_0.fifo_generator_vhdl_beh [\fifo_generator_vhdl_beh(1,0,1,"...]
+Compiling architecture xilinx of entity fifo_generator_v13_0_0.fifo_generator_v13_0_0 [\fifo_generator_v13_0_0(1,0,1,"B...]
+Compiling architecture scfifo_24in_24out_12kb_arch of entity xil_defaultlib.scfifo_24in_24out_12kb [scfifo_24in_24out_12kb_default]
+Compiling module xil_defaultlib.stream_encoder_top_default
+Compiling module xil_defaultlib.sim
+Compiling module xil_defaultlib.glbl
+Waiting for 1 sub-compilation(s) to finish...
+Built simulation snapshot sim_behav

@@ -1,0 +1,146 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Sun Mar 20 09:42:28 2016
+# Process ID: 12996
+# Log file: C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/encoder_top.vds
+# Journal file: C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source encoder_top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/skl/desktop/ece532/repo/encoder_ip_export'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.1/data/ip'.
+Command: synth_design -top encoder_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-1223] The version limit for your license is '2015.12' and will expire in -80 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 256.805 ; gain = 80.172
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'encoder_top' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_top.sv:3]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter BITS_PER_PIX bound to: 32 - type: integer 
+	Parameter NUM_COLS bound to: 1280 - type: integer 
+	Parameter NUM_ROWS bound to: 720 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_M00_AXI_BURST_LEN bound to: 128 - type: integer 
+	Parameter C_M00_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M00_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M00_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M00_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M00_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M00_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M00_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+	Parameter IMG_RBURST_LEN bound to: 128 - type: integer 
+	Parameter IMG_WBURST_LEN bound to: 128 - type: integer 
+	Parameter NUM_WREQS_PER_SIMG bound to: 7200 - type: integer 
+	Parameter NUM_RREQS_PER_CIMG bound to: 7200 - type: integer 
+	Parameter NUM_CIMG_RREQS_PER_MSG_RREQ bound to: 512 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'encoder_axi_s_v1_0' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_axi_modules/encoder_axi_s_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'encoder_axi_s_v1_0_S00_AXI' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_axi_modules/encoder_axi_s_v1_0_S00_AXI.v:13]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'encoder_axi_s_v1_0_S00_AXI' (1#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_axi_modules/encoder_axi_s_v1_0_S00_AXI.v:13]
+INFO: [Synth 8-256] done synthesizing module 'encoder_axi_s_v1_0' (2#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_axi_modules/encoder_axi_s_v1_0.v:4]
+INFO: [Synth 8-638] synthesizing module 'encoder_dram_rreq_fsm' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_dram_rreq_fsm.sv:7]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter IMG_RBURST_LEN bound to: 128 - type: integer 
+	Parameter NUM_RREQS_PER_CIMG bound to: 7200 - type: integer 
+	Parameter NUM_CIMG_RREQS_PER_MSG_RREQ bound to: 512 - type: integer 
+	Parameter BYTES_READ_PER_BURST bound to: 512 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_dram_rreq_fsm.sv:85]
+INFO: [Synth 8-256] done synthesizing module 'encoder_dram_rreq_fsm' (3#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_dram_rreq_fsm.sv:7]
+INFO: [Synth 8-638] synthesizing module 'encoder_dram_rrsp_fsm' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_dram_rrsp_fsm.sv:7]
+	Parameter IMG_RBURST_LEN bound to: 128 - type: integer 
+	Parameter NUM_RREQS_PER_CIMG bound to: 7200 - type: integer 
+	Parameter NUM_CIMG_RREQS_PER_MSG_RREQ bound to: 512 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_dram_rrsp_fsm.sv:74]
+INFO: [Synth 8-256] done synthesizing module 'encoder_dram_rrsp_fsm' (4#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_dram_rrsp_fsm.sv:7]
+INFO: [Synth 8-638] synthesizing module 'dcfifo_32in_32out_8kb' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/dcfifo_32in_32out_8kb_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'dcfifo_32in_32out_8kb' (5#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/dcfifo_32in_32out_8kb_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'dcfifo_32in_8out_16kb' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/dcfifo_32in_8out_16kb_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'dcfifo_32in_8out_16kb' (6#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/dcfifo_32in_8out_16kb_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'encoder_msg_fsm' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_msg_fsm.sv:6]
+	Parameter IMG_RBURST_LEN bound to: 128 - type: integer 
+	Parameter NUM_RREQS_PER_CIMG bound to: 7200 - type: integer 
+	Parameter NUM_CIMG_RREQS_PER_MSG_RREQ bound to: 512 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_msg_fsm.sv:62]
+INFO: [Synth 8-256] done synthesizing module 'encoder_msg_fsm' (7#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_msg_fsm.sv:6]
+INFO: [Synth 8-638] synthesizing module 'stego_encode' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/stego_source/stego_encode.v:23]
+INFO: [Synth 8-638] synthesizing module 'MDCT' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/MDCT.VHD:48]
+INFO: [Synth 8-638] synthesizing module 'DCT1D' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/DCT1D.vhd:57]
+WARNING: [Synth 8-3848] Net odv in module/entity DCT1D does not have driver. [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/DCT1D.vhd:43]
+WARNING: [Synth 8-3848] Net dcto in module/entity DCT1D does not have driver. [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/DCT1D.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'DCT1D' (8#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/DCT1D.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'DCT2D' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/DCT2D.VHD:51]
+INFO: [Synth 8-256] done synthesizing module 'DCT2D' (9#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/DCT2D.VHD:51]
+INFO: [Synth 8-638] synthesizing module 'RAM' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/RAM.VHD:45]
+INFO: [Synth 8-256] done synthesizing module 'RAM' (10#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/RAM.VHD:45]
+INFO: [Synth 8-638] synthesizing module 'DBUFCTL' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/DBUFCTL.VHD:42]
+INFO: [Synth 8-256] done synthesizing module 'DBUFCTL' (11#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/DBUFCTL.VHD:42]
+INFO: [Synth 8-638] synthesizing module 'ROME' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/ROME.VHD:42]
+INFO: [Synth 8-256] done synthesizing module 'ROME' (12#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/ROME.VHD:42]
+INFO: [Synth 8-638] synthesizing module 'ROMO' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/ROMO.VHD:45]
+INFO: [Synth 8-256] done synthesizing module 'ROMO' (13#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/ROMO.VHD:45]
+INFO: [Synth 8-256] done synthesizing module 'MDCT' (14#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/dct_source/MDCT.VHD:48]
+WARNING: [Synth 8-350] instance 'dct_1' of module 'MDCT' requires 8 connections, but only 6 given [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/stego_source/stego_encode.v:228]
+INFO: [Synth 8-638] synthesizing module 'myidct_opt2' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/stego_source/myidct_opt2.v:21]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_1' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/mult_gen_1_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_1' (15#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/mult_gen_1_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_0' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/mult_gen_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_0' (16#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/mult_gen_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'myidct_opt2' (17#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/stego_source/myidct_opt2.v:21]
+INFO: [Synth 8-638] synthesizing module 'myidct_less_lut' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/stego_source/myidct_less_lut.v:21]
+INFO: [Synth 8-638] synthesizing module 'stage_1_bram' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/stage_1_bram_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'stage_1_bram' (18#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/stage_1_bram_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'myidct_less_lut' (19#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/stego_source/myidct_less_lut.v:21]
+INFO: [Synth 8-256] done synthesizing module 'stego_encode' (20#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/stego_source/stego_encode.v:23]
+INFO: [Synth 8-638] synthesizing module 'dcfifo_8in_32out_16kb' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/dcfifo_8in_32out_16kb_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'dcfifo_8in_32out_16kb' (21#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/dcfifo_8in_32out_16kb_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'encoder_dram_wreq_fsm' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_dram_wreq_fsm.sv:7]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter IMG_WBURST_LEN bound to: 128 - type: integer 
+	Parameter NUM_WREQS_PER_SIMG bound to: 7200 - type: integer 
+	Parameter BYTES_WRITTEN_PER_BURST bound to: 512 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'scfifo_32in_32out_1kb' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/scfifo_32in_32out_1kb_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'scfifo_32in_32out_1kb' (22#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.runs/synth_1/.Xil/Vivado-12996-DESKTOP-5FTSDRT/realtime/scfifo_32in_32out_1kb_stub.v:7]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_dram_wreq_fsm.sv:76]
+INFO: [Synth 8-4471] merging register 'simg_outfifo_first_rd_en_reg' into 'dram_wreq_reg' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_dram_wreq_fsm.sv:64]
+INFO: [Synth 8-256] done synthesizing module 'encoder_dram_wreq_fsm' (23#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_fsms/encoder_dram_wreq_fsm.sv:7]
+INFO: [Synth 8-638] synthesizing module 'encoder_axi_m_v1_0' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_axi_modules/encoder_axi_m_v1_0.v:4]
+	Parameter C_M00_AXI_BURST_LEN bound to: 128 - type: integer 
+	Parameter C_M00_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M00_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M00_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M00_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M00_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M00_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M00_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'encoder_axi_m_v1_0_M00_AXI' [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_axi_modules/encoder_axi_m_v1_0_M00_AXI.v:4]
+	Parameter C_M_AXI_BURST_LEN bound to: 128 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_TRANSACTIONS_NUM bound to: 7 - type: integer 
+	Parameter C_MASTER_LENGTH bound to: 12 - type: integer 
+	Parameter C_NO_BURSTS_REQ bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'encoder_axi_m_v1_0_M00_AXI' (24#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_axi_modules/encoder_axi_m_v1_0_M00_AXI.v:4]
+INFO: [Synth 8-256] done synthesizing module 'encoder_axi_m_v1_0' (25#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_axi_modules/encoder_axi_m_v1_0.v:4]
+INFO: [Synth 8-256] done synthesizing module 'encoder_top' (26#1) [C:/Users/SKL/Desktop/ECE532/repo/encoder_ip_prj/encoder_ip_prj.srcs/sources_1/encoder_top.sv:3]

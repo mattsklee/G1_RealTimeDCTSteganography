@@ -1,0 +1,2 @@
+Language File-Name        IP             Library         File-Path                                                  
+Verilog, cdn_axi_bfm_0.v, cdn_axi_bfm_0, xil_defaultlib, ./../../../ip/cdn_axi_bfm_0/hdl/src/verilog/cdn_axi_bfm_0.v

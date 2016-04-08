@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Fri Apr 08 08:45:13 2016
+# Process ID: 6104
+# Log file: C:/Users/SKL/Desktop/asdafsf/3/encdec_sim_prj/vivado.log
+# Journal file: C:/Users/SKL/Desktop/asdafsf/3/encdec_sim_prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/SKL/Desktop/asdafsf/3/encdec_sim_prj/encdec_sim_prj.xpr
+launch_simulation
+launch_simulation
+set_property -dict [list CONFIG.Coe_File {../../../../encdec_sim_prj.srcs/sources_1/ip/mem_init_file.coe}] [get_ips blk_mem_gen_0]
+generate_target all [get_files  C:/Users/SKL/Desktop/asdafsf/3/encdec_sim_prj/encdec_sim_prj.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+remove_files C:/../../encdec_sim_prj.srcs/sources_1/ip/mem_init_file.coe
+remove_files C:/Users/SKL/Desktop/asdafsf/3/encdec_sim_prj/encdec_sim_prj.srcs/sources_1/ip/mem_init_file.coe
+set_property -dict [list CONFIG.Load_Init_File {true} CONFIG.Coe_File {../../../../encdec_sim_prj.srcs/sources_1/ip/mem_init_file.coe}] [get_ips blk_mem_gen_0]
+remove_files C:/Users/SKL/Desktop/asdafsf/3/encdec_sim_prj/archive_project_summary.txt
+remove_files C:/Users/SKL/Desktop/asdafsf/3/encdec_sim_prj/encdec_sim_prj.srcs/sources_1/imports/encdec_sim_prj/archive_project_summary.txt
+reset_target all [get_files  C:/Users/SKL/Desktop/asdafsf/3/encdec_sim_prj/encdec_sim_prj.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+generate_target all [get_files  C:/Users/SKL/Desktop/asdafsf/3/encdec_sim_prj/encdec_sim_prj.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+launch_simulation
+open_wave_config C:/Users/SKL/Desktop/ECE532/quadencoder/encoder_decoder_prj/sim_with_bram_tb_behav.wcfg
+source sim_with_bram_tb.tcl
+archive_project C:/Users/SKL/Desktop/asdafsf/4/encdec_sim_prj.xpr.zip -force -exclude_run_results

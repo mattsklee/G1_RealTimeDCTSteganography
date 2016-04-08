@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2015.1 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="5" Path="C:/Users/SKL/Desktop/ECE532/quadencoder/decoder_ip_prj/.Xil/Vivado-3452-DESKTOP-5FTSDRT/PrjAr/_X_/decoder_ip_prj.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="237f8e46a83542709e454cbc930cdc29"/>
+    <Option Name="Part" Val="xc7a100tcsg324-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="BoardPart" Val="digilentinc.com:nexys4_ddr:part0:1.1"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="EnableCoreContainerForIPI" Val="FALSE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/dct_source/MDCT_PKG.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/dct_source/MDCT_PKG.vhd"/>
+          <Attr Name="ImportTime" Val="1237314806"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/dct_source/DCT2D.VHD">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/dct_source/DCT2D.VHD"/>
+          <Attr Name="ImportTime" Val="1237314806"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/dct_source/RAM.VHD">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/dct_source/RAM.VHD"/>
+          <Attr Name="ImportTime" Val="1145102572"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/dct_source/DBUFCTL.VHD">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/dct_source/DBUFCTL.VHD"/>
+          <Attr Name="ImportTime" Val="1237314806"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/dct_source/DCT1D.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/dct_source/DCT1D.vhd"/>
+          <Attr Name="ImportTime" Val="1237314806"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/dct_source/ROME.VHD">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/dct_source/ROME.VHD"/>
+          <Attr Name="ImportTime" Val="1236468566"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/dct_source/ROMO.VHD">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/dct_source/ROMO.VHD"/>
+          <Attr Name="ImportTime" Val="1236468566"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/decoder_axi_modules/decoder_axi_m_v1_0_M00_AXI.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/decoder_axi_modules/decoder_axi_m_v1_0_M00_AXI.v"/>
+          <Attr Name="ImportTime" Val="1458411225"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/decoder_axi_modules/decoder_axi_s_v1_0_S00_AXI.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/decoder_axi_modules/decoder_axi_s_v1_0_S00_AXI.v"/>
+          <Attr Name="ImportTime" Val="1458631157"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/dct_source/MDCT.VHD">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/dct_source/MDCT.VHD"/>
+          <Attr Name="ImportTime" Val="1237314806"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/scfifo_32in_32out_1kb/scfifo_32in_32out_1kb.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/ip/scfifo_32in_32out_1kb/scfifo_32in_32out_1kb.xci"/>
+          <Attr Name="ImportTime" Val="1457879894"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/decoder_axi_modules/decoder_axi_m_v1_0.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/decoder_axi_modules/decoder_axi_m_v1_0.v"/>
+          <Attr Name="ImportTime" Val="1458411270"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/decoder_fsms/decoder_dram_rreq_fsm.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/decoder_fsms/decoder_dram_rreq_fsm.sv"/>
+          <Attr Name="ImportTime" Val="1458428894"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/decoder_axi_modules/decoder_axi_s_v1_0.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/decoder_axi_modules/decoder_axi_s_v1_0.v"/>
+          <Attr Name="ImportTime" Val="1458410064"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/decoder_fsms/decoder_dram_rrsp_fsm.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/decoder_fsms/decoder_dram_rrsp_fsm.sv"/>
+          <Attr Name="ImportTime" Val="1459228752"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/stego_source/stego_decode.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/stego_source/stego_decode.v"/>
+          <Attr Name="ImportTime" Val="1459228794"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/decoder_fsms/decoder_dram_wreq_fsm.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/decoder_fsms/decoder_dram_wreq_fsm.sv"/>
+          <Attr Name="ImportTime" Val="1458945359"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/decoder_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/decoder_top.sv"/>
+          <Attr Name="ImportTime" Val="1458945344"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci"/>
+          <Attr Name="ImportTime" Val="1460115875"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/mem_init_file.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/ip/mem_init_file.coe"/>
+          <Attr Name="ImportTime" Val="1458427023"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/archive_project_summary.txt"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="decoder_top"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/sim_with_bram_tb.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sim_1/sim_with_bram_tb.sv"/>
+          <Attr Name="ImportTime" Val="1458628729"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="sim_with_bram_tb"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../../../../sim_with_bram_tb_behav.wcfg"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="dcfifo_32in_32out_8kb_cnt" Type="BlockSrcs" RelSrcDir="$PSRCDIR/dcfifo_32in_32out_8kb_cnt">
+      <File Path="$PSRCDIR/sources_1/ip/dcfifo_32in_32out_8kb_cnt/dcfifo_32in_32out_8kb_cnt.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/ip/dcfifo_32in_32out_8kb_cnt/dcfifo_32in_32out_8kb_cnt.xci"/>
+          <Attr Name="ImportTime" Val="1458429274"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="dcfifo_32in_32out_8kb_cnt"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="dcfifo_32in_32out_16kb" Type="BlockSrcs" RelSrcDir="$PSRCDIR/dcfifo_32in_32out_16kb">
+      <File Path="$PSRCDIR/sources_1/ip/dcfifo_32in_32out_16kb/dcfifo_32in_32out_16kb.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../decoder_ip_prj.srcs/sources_1/ip/dcfifo_32in_32out_16kb/dcfifo_32in_32out_16kb.xci"/>
+          <Attr Name="ImportTime" Val="1458627720"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="dcfifo_32in_32out_16kb"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="9">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="dcfifo_32in_32out_8kb_cnt_synth_1" Type="Ft3:Synth" SrcSet="dcfifo_32in_32out_8kb_cnt" Part="xc7a100tcsg324-1" ConstrsSet="dcfifo_32in_32out_8kb_cnt" Description="Vivado Synthesis Defaults">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="dcfifo_32in_32out_16kb_synth_1" Type="Ft3:Synth" SrcSet="dcfifo_32in_32out_16kb" Part="xc7a100tcsg324-1" ConstrsSet="dcfifo_32in_32out_16kb" Description="Vivado Synthesis Defaults">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" SynthRun="synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="dcfifo_32in_32out_8kb_cnt_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="dcfifo_32in_32out_8kb_cnt" Description="Vivado Implementation Defaults" SynthRun="dcfifo_32in_32out_8kb_cnt_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="dcfifo_32in_32out_16kb_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="dcfifo_32in_32out_16kb" Description="Vivado Implementation Defaults" SynthRun="dcfifo_32in_32out_16kb_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+  </Runs>
+</Project>

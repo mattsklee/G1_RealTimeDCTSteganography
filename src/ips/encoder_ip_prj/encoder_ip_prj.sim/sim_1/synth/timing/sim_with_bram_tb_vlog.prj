@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "sim_with_bram_tb_time_synth.v"
+sv xil_defaultlib  "../../../../encoder_ip_prj.srcs/sim_1/sim_with_bram_tb.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

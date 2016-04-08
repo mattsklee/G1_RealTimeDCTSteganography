@@ -1,0 +1,15 @@
+begin_decode:[message][stego]
+begin_encode:[message][cover][stego]
+
+
+Example usage:
+
+Encode:
+set_in_message:./in_message.txt set_input:./demo_images/grass.png wait set_output:./result_images/grass.png wait write_txt:A wait write_png:B wait 	clear_png:C wait begin_encode:ABC wait check_encode wait read_png:C
+
+Decode:
+set_out_message:./output_msgs/grass.txt set_input:./result_images/grass.png wait write_png:C wait clear_png:D wait begin_decode:DC wait check_decode wait set_msg_size:4200 read_txt:D
+
+
+Encode then decode:
+set_in_message:./in_message.txt set_out_message:./out_message.txt set_input:./in.png wait set_output:./out.png wait write_txt:A wait write_png:B wait clear_png:C wait begin_encode:ABC wait check_encode wait read_png:C wait clear_png:D wait begin_decode:DC wait check_decode wait set_msg_size:4200 read_txt:D

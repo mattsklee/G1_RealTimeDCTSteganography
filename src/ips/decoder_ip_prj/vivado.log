@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Fri Apr 08 07:43:52 2016
+# Process ID: 3452
+# Log file: C:/Users/SKL/Desktop/ECE532/quadencoder/decoder_ip_prj/vivado.log
+# Journal file: C:/Users/SKL/Desktop/ECE532/quadencoder/decoder_ip_prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/SKL/Desktop/ECE532/quadencoder/decoder_ip_prj/decoder_ip_prj.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 753.656 ; gain = 188.145
+archive_project C:/Users/SKL/Desktop/ECE532/submitted_repo/src/ips/decoder_ip_prj.xpr.zip -force -exclude_run_results
+INFO: [Coretcl 2-137] starting archive...
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.1/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/SKL/Desktop/ECE532/quadencoder/decoder_ip_prj/.Xil/Vivado-3452-DESKTOP-5FTSDRT/PrjAr/_X_'.
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+WARNING: [Coretcl 2-105] Run 'dcfifo_32in_32out_8kb_cnt_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'dcfifo_32in_32out_8kb_cnt_synth_1'...
+WARNING: [Coretcl 2-105] Run 'dcfifo_32in_32out_16kb_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'dcfifo_32in_32out_16kb_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'dcfifo_32in_32out_8kb_cnt_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'dcfifo_32in_32out_16kb_impl_1'...

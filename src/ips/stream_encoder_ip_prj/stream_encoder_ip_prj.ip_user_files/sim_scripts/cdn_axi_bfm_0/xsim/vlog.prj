@@ -1,0 +1,5 @@
+verilog xil_defaultlib "./../../../ip/cdn_axi_bfm_0/hdl/src/verilog/cdn_axi_bfm_0.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
