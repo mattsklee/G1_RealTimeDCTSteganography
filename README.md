@@ -51,30 +51,30 @@ Once the product is running on an FPGA, it can be controlled by sending commands
 - wait:
   - Wait for the user to press a key before proceeding to the next argument
   
-For example, an image can be encoded and then decoded with the following sequence of command line arguments:
+For example, an image can be encoded and then decoded with the following sequence of command:
 - EthernetClient2.exe set_input:./images/pier.png set_output:./images/pier_out.png set_out_message:./messages/out_pier.txt set_in_message:./verne.txt  write_txt:A write_png:B begin_encode:ABC check_encode check_encode wait set_msg_size:10000 begin_decode:DC check_decode check_decode read_txt:D
 
 Repository Structure
 --------------------
-Root:.
-¦   README.md
+Root:.  
+¦   README.md  
 ¦   
-+---docs
-¦       presentation.pptx
-¦       report.pdf
++---docs  
+¦       presentation.pptx  
+¦       report.pdf  
 ¦       
-+---src
-    +---ips
-    ¦   +---decoder_ip_prj
-    ¦   +---encdec_sim_prj
-    ¦   +---encoder_ip_prj
-    ¦   +---stream_encoder_ip_prj
-    ¦
-    +---ethernet_client
++---src  
+    +---ips  
+    ¦   +---decoder_ip_prj  
+    ¦   +---encdec_sim_prj  
+    ¦   +---encoder_ip_prj  
+    ¦   +---stream_encoder_ip_prj  
+    ¦  
+    +---ethernet_client  
     ¦       
-    +---project_archives
-            nexys4_ddr_encdec_prj.xpr.zip
-            nexys_video_stream_enc_prj.xpr.zip
+    +---project_archives  
+            nexys4_ddr_encdec_prj.xpr.zip  
+            nexys_video_stream_enc_prj.xpr.zip  
 
 Authors
 -------
